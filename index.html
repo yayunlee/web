@@ -7,20 +7,84 @@
           name="viewport">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/jquery.fullPage.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
       $(function(){
-          $('#fullpage').fullpage();
+        $('#fullpage').fullpage({
+          navigation: true,
+          navigationTooltips: ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
+          sectionsColor: ['#1bbc9b', '#109085', '#7BAABE', '#f90', '#254587', '#695684']
+        });
       });
     </script>
   </head>
   <body>
     <div id="fullpage">
-        <div class="section">第一屏</div>
-        <div class="section">第二屏</div>
+        <div class="section">
+          <div class="photos">
+            <img src="images/100.png">
+          </div>
+          <p class="life">生活是一种绵延不绝的渴望，渴望不断上升，变得更伟大而高贵。</p>
+          <div class="line"></div>
+          <p id="lee" class="myname">我叫李亚运</p>
+          <p class="myname">期望成为一名web前端开发工程师</p>
+          <p class="myname">582249686@qq.com</p>
+        </div>
+        <div class="section">
+          <div class="container">
+            <p class="title">关于我</p>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3 middle">
+                <div class="me">
+                  <img class="icon" src="images/i_age.svg">
+                </div>
+                <p>年龄/26</p>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 middle">
+                <div class="me">
+                  <img class="icon" src="images/i_edu.svg">
+                </div>
+                <p>学历/专科</p>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 middle">
+                <div class="me">
+                  <img class="icon" src="images/i_site.svg">
+                </div>
+                <p>坐标/南阳</p>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 middle">
+                <div class="me">
+                  <img class="icon" src="images/i_status.svg">
+                </div>
+                <p>状态/求职</p>
+              </div>
+            </div>
+            <div class="introduce">
+              <p>做事细致认真，有较强的责任感</p>
+              <p>高效的自学能力,具备独立分析解决问题能力</p>
+              <p>强烈的自我驱动力,代码强迫症患者</p>
+            </div>
+          </div>
+
+        </div>
         <div class="section">第三屏</div>
         <div class="section">第四屏</div>
+        <div class="section">第五屏</div>
+        <div class="section">
+          <p class="title">联系我</p>
+          <p class="colour">
+            <span>灵感</span>
+            <span>代码</span>
+            <span>梦想</span>
+            <span>未来</span>
+          </p>
+        </div>
     </div>
   </body>
 </html>
