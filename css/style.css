@@ -77,6 +77,53 @@
 }
 
 
+/*第五屏*/
+.sample {
+  /*background-color: #fff;*/
+  /*border: 1px solid red;*/
+  padding: 15px;
+}
+
+.supplement {
+  background-color: #fff;
+  /*border: 1px solid blue;*/
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+  padding: 15px;
+}
+
+.works {
+  color: #4985A0;
+}
+
+.sample p {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.sample .linkbar {
+  margin: 20px 0px 5px 0px;
+}
+
+.sample a {
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  padding: 6px 90px;
+  margin: 20px 0px;
+}
+
+.sample a:hover {
+  background: #E6E6E6;
+  transition: all .3s ease;
+}
+
+.sample img {
+  height: 18px;
+}
+
+
+
+
 /*第六屏*/
 .colour {
   font-size: 22px;
@@ -84,8 +131,8 @@
 }
 
 .colour span {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .colour span:nth-child(1) {
@@ -102,4 +149,12 @@
 
 .colour span:nth-child(4) {
   color: #f63;
+}
+
+.fresh {
+  font-size: 18px;
+  color: #FFF;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 80px;
 }
