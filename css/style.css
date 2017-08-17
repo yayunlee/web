@@ -372,3 +372,69 @@ ul {
     margin-top: 80px;
   }
 }
+
+@media print, screen and (max-width: 400px) {
+  .life {
+    font-size: 16px;
+  }
+
+  .myname {
+    font-size: 14px;
+  }
+
+  #lee {
+    margin-top: 60px;
+  }
+
+
+  .title {
+    font-size: 20px;
+  }
+
+  .icon {
+    width: 22.5px;
+    height: 22.5px;
+  }
+
+  .me {
+    padding: 11.5px;
+  }
+
+  .middle {
+    font-size: 12px;
+  }
+
+  .introduce {
+    font-size: 14px;
+  }
+
+
+  .skillStack {
+    font-size: 14px;
+  }
+
+
+  .works {
+    font-size: 16px;
+  }
+  .sample p {
+    font-size: 12px;
+  }
+
+  .supplement {
+    padding-left: 7.5px;
+  }
+
+  .row .sample {
+    padding: 7.5px 15px;
+  }
+
+
+  .colour {
+    font-size: 18px;
+  }
+
+  .fresh {
+    font-size: 15px;
+  }
+}
