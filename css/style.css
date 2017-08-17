@@ -334,3 +334,41 @@ ul {
   line-height: 35px;
   margin-top: 80px;
 }
+
+@media print, screen and (max-width: 991px) {
+  .middle {
+    margin-bottom: 60px;
+  }
+
+  .introduce {
+    padding-top: 0px;
+  }
+}
+
+@media print, screen and (max-width: 767px) {
+  .life {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #aboutMe {
+    margin-bottom: 30px;
+  }
+
+  .middle {
+    margin-bottom: 20px;
+  }
+
+  .introduce {
+    padding-top: 10px;
+  }
+
+  #skill {
+    margin-top: 0px;
+  }
+
+  .skillStack {
+    text-align: center;
+    margin-top: 80px;
+  }
+}
