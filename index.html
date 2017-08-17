@@ -11,6 +11,7 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/jquery.fullPage.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--
     <script>
       $(function(){
         $('#fullpage').fullpage({
@@ -20,6 +21,28 @@
         });
       });
     </script>
+-->
+  <script>
+    if (window.innerWidth<=400) {
+      $(function(){
+        $('#fullpage').fullpage({
+          navigationTooltips: ['首页', '关于我', '技能栈', '作品集', '联系我'],
+          sectionsColor: ['#1bbc9b', '#109085', '#4d5e8f', '#695684', '#7BAABE'],
+          navigation: false,
+          autoScrolling: false
+        });
+      });
+    }
+    else {
+      $(function(){
+        $('#fullpage').fullpage({
+          navigation: true,
+          navigationTooltips: ['首页', '关于我', '技能栈', '作品集', '联系我'],
+          sectionsColor: ['#1bbc9b', '#109085', '#4d5e8f', '#695684', '#7BAABE']
+        });
+      });
+    }
+  </script>
   </head>
   <body>
     <div id="fullpage">
