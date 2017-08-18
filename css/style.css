@@ -1,3 +1,4 @@
+/*第一屏*/
 .photos {
   width: 140px;
   height: 140px;
@@ -38,6 +39,7 @@
 }
 
 
+/*第二屏*/
 .title {
   color: #FFF;
   font-size: 24px;
@@ -258,7 +260,7 @@ ul {
 }
 
 
-/*第五屏*/
+/*第四屏*/
 .row .sample {
   padding: 15px 30px;
 }
@@ -300,7 +302,7 @@ ul {
 }
 
 
-/*第六屏*/
+/*第五屏*/
 .colour {
   font-size: 22px;
   text-align: center;
@@ -335,6 +337,9 @@ ul {
   margin-top: 80px;
 }
 
+
+
+/*响应式*/
 @media print, screen and (max-width: 991px) {
   .middle {
     margin-bottom: 60px;
@@ -374,6 +379,7 @@ ul {
 }
 
 @media print, screen and (max-width: 400px) {
+/*第一屏*/
   .life {
     font-size: 16px;
   }
@@ -386,7 +392,7 @@ ul {
     margin-top: 60px;
   }
 
-
+/*第二屏*/
   .title {
     font-size: 20px;
   }
@@ -408,12 +414,12 @@ ul {
     font-size: 14px;
   }
 
-
+/*第三屏*/
   .skillStack {
     font-size: 14px;
   }
 
-
+/*第四屏*/
   .works {
     font-size: 16px;
   }
@@ -429,7 +435,7 @@ ul {
     padding: 7.5px 15px;
   }
 
-
+/*第五屏*/
   .colour {
     font-size: 18px;
   }

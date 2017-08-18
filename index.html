@@ -11,38 +11,27 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/jquery.fullPage.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!--
     <script>
-      $(function(){
-        $('#fullpage').fullpage({
-          navigation: true,
-          navigationTooltips: ['首页', '关于我', '技能栈', '作品集', '联系我'],
-          sectionsColor: ['#1bbc9b', '#109085', '#4d5e8f', '#695684', '#7BAABE'],
+      if (window.innerWidth<=600) {
+        $(function(){
+          $('#fullpage').fullpage({
+            navigationTooltips: ['首页', '关于我', '技能栈', '作品集', '联系我'],
+            sectionsColor: ['#1bbc9b', '#109085', '#4d5e8f', '#695684', '#7BAABE'],
+            navigation: false,
+            autoScrolling: false
+          });
         });
-      });
+      }
+      else {
+        $(function(){
+          $('#fullpage').fullpage({
+            navigation: true,
+            navigationTooltips: ['首页', '关于我', '技能栈', '作品集', '联系我'],
+            sectionsColor: ['#1bbc9b', '#109085', '#4d5e8f', '#695684', '#7BAABE']
+          });
+        });
+      }
     </script>
--->
-  <script>
-    if (window.innerWidth<=400) {
-      $(function(){
-        $('#fullpage').fullpage({
-          navigationTooltips: ['首页', '关于我', '技能栈', '作品集', '联系我'],
-          sectionsColor: ['#1bbc9b', '#109085', '#4d5e8f', '#695684', '#7BAABE'],
-          navigation: false,
-          autoScrolling: false
-        });
-      });
-    }
-    else {
-      $(function(){
-        $('#fullpage').fullpage({
-          navigation: true,
-          navigationTooltips: ['首页', '关于我', '技能栈', '作品集', '联系我'],
-          sectionsColor: ['#1bbc9b', '#109085', '#4d5e8f', '#695684', '#7BAABE']
-        });
-      });
-    }
-  </script>
   </head>
   <body>
     <div id="fullpage">
@@ -50,12 +39,13 @@
           <div class="photos">
             <img src="images/100.png">
           </div>
-          <p class="life">生活是一种绵延不绝的渴望，渴望不断上升，变得更伟大而高贵。</p>
+          <p class="life">力争上游，虽然辛苦，但也充满了机会</p>
           <div class="line"></div>
           <p id="lee" class="myname">我叫李亚运</p>
           <p class="myname">一名前端开发工程师</p>
           <p class="myname">582249686@qq.com</p>
         </div>
+
         <div class="section">
           <div class="container">
             <p class="title" id="aboutMe">关于我</p>
@@ -94,8 +84,8 @@
               <p>强烈的自我驱动力,代码强迫症患者</p>
             </div>
           </div>
-
         </div>
+
         <div class="section">
           <div class="container">
             <p class="title" id="skill">技能栈</p>
@@ -127,9 +117,7 @@
             </div>
           </div>
         </div>
-        <!--
-        <div class="section">第四屏</div>
-        -->
+
         <div class="section">
           <div class="container">
             <p class="title">作品集</p>
@@ -139,8 +127,7 @@
                 <div class="supplement">
                   <h4 class="works">我的简历</h4>
                   <p>
-                    本简历初版，上线一个月后，百度关键词“web前端工程师简历”排名前三，点击量数百万，
-                    深受广大前端初学者的好评及模仿，至今搜该关键词百度前10页都处处能见该简历的仿版。
+                    HTML,CSS
                   </p>
                   <div class="linkbar">
                     <a href="http://yayunlee.me/resume"><img src="images/w_link.svg"></a>
@@ -152,8 +139,7 @@
                 <div class="supplement">
                   <h4 class="works">个人作品</h4>
                   <p>
-                    一站式、全生命周期的校园官方移动服务平台，涵盖PC、安卓、IOS、微信平台，上线学校包括中央财经大学，
-                    北京交通大学，中国戏曲学院，辽宁大学，西南财经大学等等，下载量数十万.
+                    jQuery,HTML,CSS
                   </p>
                   <div class="linkbar">
                     <a href="http://yayunlee.me/works/personal.html"><img src="images/w_link.svg"></a>
@@ -165,8 +151,7 @@
                 <div class="supplement">
                   <h4 class="works">禅意花园</h4>
                   <p>
-                    针对校园APP的后台管理系统，包括人员架构，信息统计，权限设置，H5生产机，数据交换平台，
-                    各个模块的数据管理，反馈设置等等，为高校提供基于互联网运营的移动校园整体解决方案。
+                    HTML,CSS
                   </p>
                   <div class="linkbar">
                     <a href="http://yayunlee.me/ZenGarden/garden.html"><img src="images/w_link.svg"></a>
@@ -178,8 +163,7 @@
                 <div class="supplement">
                   <h4 class="works">觅未创意</h4>
                   <p>
-                    普通性的各类企业网站开发，兼容IE8+,适配全移动机型，具有良好的兼容性，扩展性。
-                    根据客户群体的习性进行详细分析策划，制定出一套适合企业自身的网站建设的设计风格方案。
+                    Bootstrap,jQuery,HTML,CSS
                   </p>
                   <div class="linkbar">
                     <a href="http://yayunlee.me/meweidea/originality.html"><img src="images/w_link.svg"></a>
@@ -190,6 +174,7 @@
             </div>
           </div>
         </div>
+
         <div class="section">
           <p class="title">联系我</p>
           <p class="colour">
