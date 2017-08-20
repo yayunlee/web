@@ -378,7 +378,7 @@ ul {
   }
 }
 
-@media print, screen and (max-width: 400px) {
+@media print, screen and (max-width: 600px) {
 /*第一屏*/
   .life {
     font-size: 16px;
@@ -414,9 +414,19 @@ ul {
     font-size: 14px;
   }
 
+  #aboutMe {
+    margin-bottom: 60px;
+    padding-top: 60px;
+  }
+
 /*第三屏*/
   .skillStack {
     font-size: 14px;
+  }
+
+  #skill {
+    margin-bottom: 60px;
+    padding-top: 60px;
   }
 
 /*第四屏*/
@@ -433,6 +443,11 @@ ul {
 
   .row .sample {
     padding: 7.5px 15px;
+  }
+
+  #reels {
+    margin-bottom: 52.5px;
+    padding-top: 60px;
   }
 
 /*第五屏*/
