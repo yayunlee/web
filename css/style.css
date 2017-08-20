@@ -348,6 +348,10 @@ ul {
   .introduce {
     padding-top: 0px;
   }
+
+  #aboutMe {
+    padding-top: 60px;
+  }
 }
 
 @media print, screen and (max-width: 767px) {
@@ -370,11 +374,18 @@ ul {
 
   #skill {
     margin-top: 0px;
+    margin-bottom: 60px;
+    padding-top: 60px;
   }
 
   .skillStack {
     text-align: center;
     margin-top: 80px;
+  }
+
+  #reels {
+    margin-bottom: 45px;
+    padding-top: 60px;
   }
 }
 
